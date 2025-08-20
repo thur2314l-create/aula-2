@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+}
+
+
+header {
+    background-color: rgb(250, 4, 4);
+    height: 50px;
+
+    
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 10px;
+}
+
+nav a {
+color: white;
+font-size: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+text-decoration: none;
+
+}
+
+nav a:hover {
+    color:black ;
+}
+ h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+ }
+ .divPai {
+    display: flex;
+    justify-content: space-between;
+ }
+
+ .divFilho1 {
+    background-color: red;
+    height: 600px;
+    width: 33.33% ;
+    background-image: url(img/Albert_Einstein_1947.jpg);
+    background-size: cover;
+ }
+ 
+ .divFilho2 {
+    background-color: rgb(20, 4, 250);
+    height: 600px;
+    width: 33.33%;
+    background-image: url(img/Albert_Einstein_1947.jpg);
+    background-size: cover;
+    
+ }
+
+ .divFilho3 {
+    background-color:  rgb(4, 250, 86);
+ height: 600px;
+ width: 33.33%;
+ background-image: url(img/Albert_Einstein_1947.jpg);
+ background-size: cover;
+ background-repeat: no-repeat;
+    
+ }
+ footer {
+    background-color: rgb(245, 11, 11);
+    height: 100px;
+    bottom: 0;
+      position: fixed;
+      width: 100%;
+ }
+ footer a {
+ color: white;
+ padding-left: 300px;
+ padding-top: 30px;
+ padding-right: 300px;
+ font-size: 30px;
+ text-align: center;
+ 
+ }
